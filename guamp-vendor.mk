@@ -234,6 +234,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libthermalclient
+PRODUCT_COPY_FILES += \
+    vendor/motorola/guamp/proprietary/product/etc/CarrierSettings/carrier_list.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/carrier_list.pb \
+    vendor/motorola/guamp/proprietary/product/etc/CarrierSettings/others.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/others.pb
 
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay
