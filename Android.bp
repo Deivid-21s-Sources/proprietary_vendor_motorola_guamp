@@ -1878,7 +1878,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libvidhance.so"],
-			shared_libs: ["libGLESv3", "libEGL", "libGLESv2", "libdl", "libm", "liblog", "libc++", "libc", ],
+			shared_libs: ["libcomparetf2_shim", "libGLESv3", "libEGL", "libGLESv2", "libdl", "libm", "liblog", "libc++", "libc", ],
 		},
 	},
 	compile_multilib: "64",
