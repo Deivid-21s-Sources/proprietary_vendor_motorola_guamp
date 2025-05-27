@@ -97,6 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/guamp/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/motorola/guamp/proprietary/vendor/etc/thermal-engine-guamp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-guamp.conf \
     vendor/motorola/guamp/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+    vendor/motorola/guamp/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
     vendor/motorola/guamp/proprietary/vendor/firmware/AbovCapSense.BIN:$(TARGET_COPY_OUT_VENDOR)/firmware/AbovCapSense.BIN \
     vendor/motorola/guamp/proprietary/vendor/firmware/ICNL9911.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ICNL9911.bin \
     vendor/motorola/guamp/proprietary/vendor/firmware/ILITEK_FW_HLT.hex:$(TARGET_COPY_OUT_VENDOR)/firmware/ILITEK_FW_HLT.hex \
@@ -130,6 +131,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libthermalclient \
+    cnss-daemon \
     com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom \
     com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom \
     com.mot.eeprom.mot_ov02b1b_otp \
