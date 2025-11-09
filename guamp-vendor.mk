@@ -131,8 +131,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libthermalclient \
-    capsense_reset \
-    cnss-daemon \
     com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom \
     com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom \
     com.mot.eeprom.mot_ov02b1b_otp \
@@ -243,6 +241,8 @@ PRODUCT_PACKAGES += \
     libtfestriping \
     libvidhance \
     vendor.goodix.hardware.biometrics.fingerprint@3.0 \
+    capsense_reset \
+    cnss-daemon \
     android.hardware.biometrics.fingerprint@2.1-goodixservice \
     android.hardware.biometrics.fingerprint@2.1-service-fpc \
     goodix_ident \
